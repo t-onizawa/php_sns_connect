@@ -1,0 +1,167 @@
+main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+	display: block;
+}
+
+body {
+	font-size: 12px;
+	color: #333;
+}
+
+a:link, a:hover, a:active, a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+.cf:after {
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.header {
+	height: 40px;
+	background-image: -moz-linear-gradient(top, #ffd100 0, #ffbf00 100%);
+	background-image: -ms-linear-gradient(top, #ffd100 0, #ffbf00 100%);
+	background-image: -o-linear-gradient(top, #ffd100 0, #ffbf00 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffd100), color-stop(100%, #ffbf00));
+	background-image: -webkit-linear-gradient(top, #ffd100 0, #ffbf00 100%);
+	background-image: linear-gradient(to bottom, #ffd100 0%, #ffbf00 100%);
+}
+
+.header-inner {
+	min-width: 860px;
+	max-width: 1080px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logined {
+	position: absolute;
+	top: 4px;
+	right: 10px;
+}
+
+.login-img, .login-name {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.login-img img {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #FFF;
+	box-shadow: 0 0 1px #f2aa00;
+}
+
+.login-name {
+	margin-left: 5px;
+}
+
+a.logout-link {
+	margin-left: 10px;
+	color: #FFF;
+}
+
+.login-box {
+	position: fixed;
+	width: 500px;
+	padding: 50px;
+	margin: -100px 0 0 -250px;
+	top: 50%;
+	left: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #FAFAFA;
+	box-shadow: 0 0 2px #AAA;
+}
+
+.login-head {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+.login-fb {
+	display: inline-block;
+	vertical-align: middle;
+}
+.login-fb a {
+	display: block;
+	color: #fff;
+	width: 190px;
+	height: 1em;
+	padding: 1em 0;
+	text-align: center;
+	cursor: pointer;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border-width: 1px;
+	border-color: #0053a6 #0053a6 #000;
+	background-color: #6891e7;
+	background-image: -moz-linear-gradient(top, #4495e7 0, #0053a6 100%);
+	background-image: -ms-linear-gradient(top, #4495e7 0, #0053a6 100%);
+	background-image: -o-linear-gradient(top, #4495e7 0, #0053a6 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4495e7), color-stop(100%, #0053a6));
+	background-image: -webkit-linear-gradient(top, #4495e7 0, #0053a6 100%);
+	background-image: linear-gradient(to bottom, #4495e7 0%, #0053a6 100%);
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	-ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.login-fb a:hover {
+	border-color: #002d59 #002d59 #000;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+	-ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+	background-image: -moz-linear-gradient(top, #3a8cdf 0, #0053a6 100%);
+	background-image: -ms-linear-gradient(top, #3a8cdf 0, #0053a6 100%);
+	background-image: -o-linear-gradient(top, #3a8cdf 0, #0053a6 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3a8cdf), color-stop(100%, #0053a6));
+	background-image: -webkit-linear-gradient(top, #3a8cdf 0, #0053a6 100%);
+	background-image: linear-gradient(to bottom, #3a8cdf 0%, #0053a6 100%);
+}
+.login-fb a:active {
+	border-color: #000 #002d59 #002d59;
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 white;
+	-ms-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 white;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 white;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 0 white;
+	background-image: -moz-linear-gradient(top, #005ab4 0, #175ea6 100%);
+	background-image: -ms-linear-gradient(top, #005ab4 0, #175ea6 100%);
+	background-image: -o-linear-gradient(top, #005ab4 0, #175ea6 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #005ab4), color-stop(100%, #175ea6));
+	background-image: -webkit-linear-gradient(top, #005ab4 0, #175ea6 100%);
+	background-image: linear-gradient(to bottom, #005ab4 0%, #175ea6 100%);
+}
+
+.i-fb, .login-txt {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.i-fb {
+	width: 20px;
+	height: 20px;
+	background-image: url(/img/icon/sorial-facebook.svg);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
